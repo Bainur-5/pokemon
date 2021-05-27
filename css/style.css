@@ -12,7 +12,7 @@ body{
     padding: 1% 0;
 }
 .body_bg{
-    background-color: rgba(3, 9, 39, 0.473);
+    background-color: rgba(3, 9, 39, 0.105);
 }
 h1{
     color: white;
@@ -217,4 +217,118 @@ h1{
 }
 .social a{
     color: white;
+}
+
+@media screen and (max-width:999px){
+    .type div p{
+        font-size: 90%;
+    }
+    .type p{
+        font-size: 90%;
+    }
+    .special div p{
+        font-size:  90%;    
+    }
+    .special p{
+        font-size: 90%;
+    }
+    .height div p{
+        font-size: 90%;
+    }
+    .height p{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width:902px){
+    .GG_card{
+        width: 70%;
+    }
+    /* .skil_head{
+        flex-direction: column; 
+        width: 80%;
+        margin: 0 auto;
+    } */
+    /* .type div{
+        margin: 0;
+    }
+    .special div{
+        margin: 0;
+    }
+    .height div{
+        margin: 0;
+    }
+    .type{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .special{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .height{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } */
+    .pokemon_GG_cont{
+        width: 30%;
+    }
+    h1{
+        font-size: 150%;
+    }
+    .type div p{
+        font-size: 80%;
+    }
+    .cont_video div iframe{
+        width: 90%;
+        height: 100%;
+    }
+    .skil{
+        width: 80%;
+    }
+    .skil_body h2{
+        font-size: 120%;
+    }
+}
+@media screen and (max-width:635px){
+    .pokemon_GG_cont{
+        width: 45%;
+    }
+    .cont_video div iframe{
+        width: 80%;
+        height: 70%;
+        margin: auto;
+    }
+    .social{
+        width: 20%;
+    }
+    .nav{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:565px){
+    .cont_video div iframe{
+        width: 90%;
+        height: 50%;
+        margin: auto;
+    }
+    .social{
+        width: 25%;
+    }
+}
+@media screen and (max-width:405px){
+    .pokemon_GG_cont{
+        width: 45%;
+        margin: 2% auto;
+        height: 20vh;
+    }
+    .nav{
+        width: 40%;
+    }
+    .GG_card{
+        width: 90%;
+    }
 }

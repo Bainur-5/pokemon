@@ -80,24 +80,26 @@ function linkPokemon(url){
                             <h1 style="margin: auto;">${res.name}</h1>
                         </div>
                         <div class="skil_head">
+                                <p>Type</p>
                             <div class="type">
                                 <div>
                                     ${type}
                                 </div>
-                                Type
                             </div>
                             <div class="special">
+                            <p>special attack / defense</p> 
                                 <div>
                                     <p>${res.stats[3].base_stat}/</p>
                                     <p>${res.stats[4].base_stat}</p>
                                 </div>
-                                special attack / defense
+                                
                             </div>
                             <div class="height">
+                            <p>Height</p>
                                 <div>
                                     <p>${res.height}0 сm</p>
                                 </div>
-                                height
+                                
                             </div>
                         </div>
                         <div class="skil_body">
